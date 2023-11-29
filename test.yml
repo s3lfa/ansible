@@ -1,6 +1,3 @@
 - hosts: localhost
   tasks: cat /etc/os-release
       var: ansible_kernel
-  any_errors_fatal: true
-  roles:
-    - admin
