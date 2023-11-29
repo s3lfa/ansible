@@ -1,4 +1,9 @@
-- hosts: localhost
+type tySurvey struct {
+  hosts: localhost
   tasks: cat /etc/os-release
   var: ansible_kernel
   gather_facts: False
+
+ Id   int64  `json:"id,string,omitempty"`
+ Name string `json:"name,omitempty"`
+ } 
