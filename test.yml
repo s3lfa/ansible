@@ -1,3 +1,4 @@
 - hosts: localhost
   tasks: cat /etc/os-release
-      var: ansible_kernel
+  var: ansible_kernel
+  gather_facts: False
