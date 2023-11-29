@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  tasks:
+  - debug:
+      var: ansible_kernel
+...
