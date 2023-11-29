@@ -1,6 +1,6 @@
 ---
 - hosts: localhost
-  tasks:
+  tasks: cat /etc/os-release
   - debug:
       var: ansible_kernel
 ...
